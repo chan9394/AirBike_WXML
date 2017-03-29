@@ -1,0 +1,17 @@
+.recharged{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #F4F6F7;
+    font-size: 30rpx;
+}
+.title{
+    text-align: center;
+    padding: 8% 0 8% 0;
+    font-weight: bold;
+    font-size: 34rpx;
+}
+.content {
+    margin: 30rpx 20rpx 0 20rpx;
+    text-indent: 60rpx
+}

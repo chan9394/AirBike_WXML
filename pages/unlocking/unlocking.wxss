@@ -1,0 +1,36 @@
+.background{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #1E2027;
+    color: #FFFFFF;
+    font-size: 28rpx
+}
+
+image {
+    position: absolute;
+    top: 28%;
+    left:30%;
+}
+
+progress{
+    position: absolute;
+    top: 48%;
+    left:30%;
+    width: 40%;
+    color: #34B5E3;
+}
+
+.texttop{
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    text-align: center;
+}
+
+.textbottom{
+    position: absolute;
+    bottom: 6%;
+    text-align: center;
+    width: 100%;
+}

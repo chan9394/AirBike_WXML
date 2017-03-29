@@ -1,0 +1,12 @@
+<view class="homepage">
+
+    <text class='phoneLb'>手机号码</text>
+    <input class='phoneTf' bindinput='phoneTfInput' maxlength="11" type="number" placeholder="填写手机号" auto-focus/>
+    <button class='getCodeBtn' style='color:{{getCodeBtnProperty.titileColor}}' type="default" bindtap='getCodeAct' disabled='{{getCodeBtnProperty.disabled}}' loading='{{getCodeBtnProperty.loading}}'>{{getCodeBtnProperty.title}}</button>
+    <text class='codeLb'>验证码</text>
+    <input class='codeTf' bindinput='codeTfInput' maxlength="4" type="number" placeholder="输入验证码" focus='{{codeTfFocus}}'/>
+    <button class='loginBtn' type="primary" bindtap='loginAct' disabled='{{loginBtnProperty.disabled}}' loading='{{loginBtnProperty.loading}}'>登录</button>
+    <text class='attentionLb'>点击登录,即代表已阅读并同意</text>
+    <view class='explainBtn' bindtap='explainAct'>《用车服务条款》</view>
+
+</view>

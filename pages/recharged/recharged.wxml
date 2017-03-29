@@ -1,0 +1,10 @@
+<scroll-view scroll-y='true' class='recharged'>
+<view class="title">AirBike单车充值协议</view>
+<view class="content">尊敬的用户，为保障您的合法权益，请您仔细阅读本充值协议。当您点击“去充值”按钮，即视为您已阅读、理解本协议、并同意按照本协议规定执行此。</view>
+
+<view class="content">充值方式 -- 可通过本小程序在线充值。</view>
+
+<view class="content">充值车费后，车费余额只能用于支付用车订单，不设失效期，不能转移，转赠。</view>
+
+<view class="content">有其它充值相关问题请您联系客服。</view>
+</scroll-view>

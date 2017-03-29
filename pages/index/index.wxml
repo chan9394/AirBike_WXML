@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view class="homepage">
+
+  <view class="bikeAbnormity" wx:if="{{bikeAbnormity.show}}" style="width: {{bikeAbnormity.width}}; height: {{bikeAbnormity.height}}; color: #E75F62;font-size: 32rpx;display: flex; flex-flow: row;">
+       <view style="margin: auto; width: 90%; margin-left: 5%; text-align: left">我们已收到计费异常通知,您本次骑行将会正常结费,您的账户将在关锁确认后恢复使用。</view>
+  </view>
+
+  <view class="bikeRiding" wx:if="{{bikeRiding.show}}" style="width: {{bikeRiding.width}}; height: {{bikeRiding.height}}">
+
+    <view class="des">
+
+    <view class="time">
+     <view class='top' style="color: #000000; font-size: 30rpx;"><text style=" font-size: 34rpx; font-weight: bold;">{{bikeRiding.ridingTime}}</text>分钟</view>
+     <view style="color: #757575; font-size: 30rpx"><image style="width:30rpx;height:30rpx" src="../images/imgs_riding_time.png"/>骑行时间</view>
+    </view>
+
+    <view class="distance">
+     <view class='top' style="color: #000000; font-size: 30rpx;"><text style=" font-size: 34rpx; font-weight: bold;">{{bikeRiding.ridingDistance}}</text>公里</view>
+     <view style="color: #757575 ; font-size: 30rpx"><image style="width:30rpx;height:30rpx" src="../images/imgs_riding_distance.png"/>骑行距离</view>
+    </view>
+
+    <view class="speed">
+     <view class='top' style="color: #000000; font-size: 30rpx;"><text style=" font-size: 34rpx; font-weight: bold;">{{bikeRiding.ridingSpeed}}</text>公里/小时</view>
+     <view style="color: #757575; font-size: 30rpx"><image style="width:30rpx;height:30rpx" src="../images/imgs_riding_speed.png"/>平均速度</view>
+    </view>
+
+   </view>
+
+   <view class="lock">
+
+    <view class='left' style="text-align: left;">手动关锁即可结束计费</view>
+
+    <view class='right' style="text-align: right; color:#EB8A8B;" bindtap="unEndCharge">关锁后未结费?</view>
+
+   </view>
+
+  </view>
+
+  <view class="bikeAbnormity" wx:if="{{bikeAbnormity.show}}">
+  </view>
+
+  <map id="myMap" longitude="{{point.longitude}}" latitude="{{point.latitude}}" markers="{{markers}}" scale="{{mapScale}}" show-location bindregionchange="regionchange" bindmarkertap="markertap" controls="{{controls}}" bindcontroltap="controltap" style="width: {{mapWidth}}; height: {{mapHeight}};top: {{mapTop}}"> 
+  </map>
+
+</view>

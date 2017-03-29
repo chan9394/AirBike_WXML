@@ -1,0 +1,21 @@
+<view class="homepage">
+    <image src="../images/pay_success.png"></image>
+    <view class="cost">
+    <view  class="cost1">
+          <text>成功支付  ¥<text>{{pay}}</text></text>
+    </view>
+    <view class="cost2">
+          <text>行程总费用<text>{{pay}}</text><text>元</text></text>
+    </view>
+    </view>
+    <view class="ridingTime">
+      <view class="left">骑行时间</view>
+      <view class="right"><text>{{time}}</text>分钟</view>
+    </view>
+    <view class="myWallet">
+      <view class="left">我的钱包</view>
+      <view class="right"><text>{{wallet}}</text>元</view>
+    </view>
+    <button bindtap="finishAct">完成</button>
+    
+</view>

@@ -1,0 +1,8 @@
+<view class="background">
+
+     <image src="../images/unlock_bike.png" style="width: 305rpx;height:193rpx"></image>
+     <progress percent="{{progress}}" stroke-width="5" color="#34B5E3" show-info active/>
+     <view class="texttop">开锁中,请不要关闭小程序</view>
+     <view class="textbottom">请将单车停放在路边公共停车处</view>
+
+</view>

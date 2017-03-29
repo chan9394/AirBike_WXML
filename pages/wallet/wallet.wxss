@@ -1,0 +1,46 @@
+.wallet_homepage {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #F4F6F7;
+  display: flex;
+  flex-flow: column
+}
+.icon {
+    margin-top: 160rpx;
+    width: 100%;
+    height: 200rpx;
+}
+image{
+    margin-left: 275rpx;
+    width:200rpx;
+    height: 200rpx; 
+}
+.text{
+    margin-top: 80rpx;
+    width: 100%;
+    text-align: center;
+    font-size: 30rpx
+}
+.mywallet{
+    margin-top: 80rpx;
+    width: 100%;
+    text-align: center;
+    font-size: 70rpx
+}
+button{
+    margin-top: 80rpx;
+    background-color: #34B5E3;
+    color: #FFFFFF;
+    height: 80rpx;
+    width: 90%;
+    border-radius: 40rpx;
+    line-height: 80rpx
+}
+.deposit {
+    position: absolute;
+    bottom: 40rpx;
+    width: 100%;
+    text-align: center;
+    font-size: 28rpx
+}

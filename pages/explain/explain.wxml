@@ -1,0 +1,62 @@
+<scroll-view class="explain" scroll-y='true' scroll-top='0'>
+   <view style="margin-bottom: 4%;margin-top: 6%">
+    <view class="foot_box">
+     <view style="color: #000000; font-size: 32rpx;font-weight:bold">电力骑行</view>
+     <view class="xian"></view>
+    </view>
+    <view>
+     <image src="../images/electric_riding.jpeg"/>
+     <p>AirBike电力共享单车，在全球首创“车与电源分离”的模式</p >
+    </view>
+   </view>
+   <view style="margin-bottom: 4%;margin-top: 6%">
+    <view class="foot_box">
+     <view style="color: #000000; font-size: 32rpx;font-weight:bold">停车点</view>
+     <view class="xian ch"></view>
+    </view>
+    <view>
+     <image src="../images/park_point.jpeg"/>
+     <p>AirBike不需要固定车桩，请将单车停放到路边公共停车区域内，方便他人取用</p >
+    </view>
+   </view>
+   <view style="margin-bottom: 4%;margin-top: 6%">
+    <view class="foot_box ">
+     <view style="color: #000000; font-size: 32rpx;font-weight:bold">预约与计费</view>
+     <view class="xian du"></view>
+    </view>
+    <view>
+     <image src="../images/order.jpeg"/>
+     <p>在地图上点击你想要的单车图标即可进行预约，被预约的车辆为您保留15分钟。开锁开始计费</p >
+    </view>
+   </view>
+   <view style="margin-bottom: 4%;margin-top: 6%">
+    <view class="foot_box">
+     <view style="color: #000000; font-size: 32rpx;font-weight:bold">开锁帮助</view>
+     <view class="xian"></view>
+    </view>
+    <view>
+     <image src="../images/unlock_help.jpeg"/>
+     <p>在AirBike单车的智能尾箱印有二维码，只需手机扫码或输入车辆编码，车锁就会自动打开。</p >
+    </view>
+   </view>
+   <view style="margin-bottom: 4%;margin-top: 6%">
+    <view class="foot_box">
+     <view style="color: #000000; font-size: 32rpx;font-weight:bold">如何关锁</view>
+     <view class="xian"></view>
+    </view>
+    <view>
+     <image src="../images/lock_help.jpeg"/>
+     <p>手动关锁完成还车，结束计费（结费或受网络影响，稍等即可）</p >
+    </view>
+   </view>
+   <view style="margin-bottom: 4%;margin-top: 6%">
+    <view class="foot_box">
+     <view style="color: #000000; font-size: 32rpx;font-weight:bold">客户服务</view>
+     <view class="xian"></view>
+    </view>
+    <view>
+     <image src="../images/service.jpeg"/>
+     <p>寻找客服帮助，举报违章，违规停放或发现故障车，请点击首页右下角客服图标。</p >
+    </view>
+   </view>
+ </scroll-view>

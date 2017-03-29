@@ -1,0 +1,70 @@
+image{
+    width:130rpx;
+    height: 130rpx;
+    margin-left: 310rpx;
+    margin-top: 80rpx
+}
+.cost{
+    display: flex;
+    flex-flow: column;
+    margin-top: 100rpx;
+    width: 100%;
+}
+.cost1{
+    font-size: 42rpx;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+    width: 100%
+}
+.cost2{
+    font-size: 30rpx;
+    text-align: center;
+    color: #858585;
+    margin-top: 40rpx;
+    width: 100%
+}
+.ridingTime{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-flow: row;
+    height:100rpx;
+    width: 100%;
+    font-size: 30rpx;
+    margin-top:60rpx 
+}
+.myWallet{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-flow: row;
+    height:100rpx;
+    width: 100%;
+    font-size: 30rpx; 
+    margin-top: 1rpx;
+}
+.left {
+     width: 50%;
+     height: 100%;
+     -webkit-box-flex: 1;
+     margin-left: 3%;
+     line-height: 100rpx;
+}
+.right {
+    width: 50%;
+    height: 100%;
+    -webkit-box-flex: 1;
+    margin-right: 3%;
+    text-align: right;
+    color: #858585;
+    line-height: 100rpx;
+}
+button{
+    margin-top: 40rpx;
+    margin-left: 40rpx;
+    width: 670rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    border-radius: 40rpx;
+    color: #FFFFFF;
+    background-color: #34B5E3
+}

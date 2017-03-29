@@ -1,0 +1,12 @@
+<view class="depositView">
+    <view class="depositBlock">
+        <view class="currentMoney">充值金额 <view style="margin-left: 40rpx; font-size: 34rpx; line-height: 80rpx;color: #34B5E3">{{currentMoney}}</view></view>
+        <view class="varietyMoney">
+            <button class="chioce" wx:for="{{moneyArr}}" bindtap="chioceAct" data-currentid="{{item.id}}" style="color: {{item.color}}; background-color: {{item.background}}; top: {{item.top}}; left: {{item.left}}">{{item.content}}</button>
+        </view>
+    </view>
+    
+    <button class="depositBtn" bindtap="gotoRecharged">去充值</button>
+    <view class="text1"><view style="margin-left: auto; text-align: right;"> 点击去充值,即表示已阅读并同意 </view><view bindtap="chargeAgree" style="margin-right: auto; text-align: left;color: #EB8A8B">《充值协议》</view></view>
+    <view class="text2">AirBike不会以任何形式要求您输入银行账户和密码</view>
+</view>

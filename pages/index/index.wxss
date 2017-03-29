@@ -1,0 +1,58 @@
+/**index.wxss**/
+  .bikeRiding{
+    background-color: #FFFFFF;
+   }
+   .des{
+    display: flex;
+    flex-flow: row;
+    height: 70%;
+    width: 100%;
+    border-bottom: 2rpx solid #D7E0E4;
+   }
+   .time{
+    width: 33.33%;
+    height: 100%;
+    -webkit-box-flex: 1;
+    text-align: center;    
+   }
+    .distance{
+    width: 33.33%;
+    height: 100%;
+    -webkit-box-flex: 1;
+    text-align: center;
+   }
+    .speed{
+    width: 33.33%;
+    height: 100%;
+    -webkit-box-flex: 1;
+    text-align: center;    
+   }
+   .top {
+     margin-top: 30%;
+     margin-bottom: 5%;
+   }
+   
+   .lock {
+     display: flex;
+     flex-flow: row;
+     height: 30%;
+     width: 100%;
+     font-size: 30rpx
+   }
+   .left {
+     width: 47%;
+     -webkit-box-flex: 1;
+     margin-left: 3%;
+     margin: auto;
+   }
+   .right {
+    width: 47%;
+     -webkit-box-flex: 1;
+     margin-right: 3%;
+     margin: auto;
+   }
+   image {
+     margin-right: 6rpx;
+     margin-bottom: -2rpx
+   }
+

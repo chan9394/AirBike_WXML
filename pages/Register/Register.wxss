@@ -1,0 +1,87 @@
+.phoneLb {
+    position: absolute;
+    left: 0;
+    top: 60rpx;
+    width: 200rpx;
+    height: 80rpx;
+    background-color: #FFFFFF;
+    font-size: 32rpx;
+    font-weight:bold;
+    font-family: Times New Roman;
+    text-align: center;
+    line-height: 80rpx;
+}
+
+.phoneTf{
+    position: absolute;
+    left: 200rpx;
+    top: 60rpx;
+    width: 300rpx;
+    height: 80rpx;
+    background-color: #FFFFFF;
+    font-size: 32rpx;
+}
+
+.getCodeBtn {
+    position: absolute;
+    right: 0rpx;
+    top: 60rpx;
+    width: 252rpx;
+    height: 80rpx;
+    background-color: #FFFFFF;
+    line-height: 80rpx;
+    font-size: 32rpx;
+}
+
+.codeLb {
+    position: absolute;
+    left: 0;
+    top: 142rpx;
+    width: 200rpx;
+    height: 80rpx;
+    background-color: #FFFFFF;
+    font-size: 32rpx;
+    font-weight:bold;
+    font-family: Times New Roman;
+    text-align: center;
+    line-height: 80rpx;
+}
+
+.codeTf {
+    position: absolute;
+    left: 200rpx;
+    top: 142rpx;
+    right: 0rpx;
+    height: 80rpx;
+    background-color: #FFFFFF;
+    font-size: 32rpx;
+}
+
+.loginBtn {
+    position: absolute;
+    left: 40rpx;
+    top: 330rpx;
+    width: 670rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+}
+
+.attentionLb {
+    position: absolute;
+    right: 312rpx;
+    top: 410rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 24rpx;
+    color: #6D6D6D
+}
+
+.explainBtn {
+    position: absolute;
+    left: 438rpx;
+    top: 410rpx;
+    height: 80rpx;
+    color: #34B5E3;
+    line-height: 80rpx;
+    font-size: 24rpx;
+}

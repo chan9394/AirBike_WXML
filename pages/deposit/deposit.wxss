@@ -1,0 +1,59 @@
+.depositView{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #F4F6F7
+}
+.depositBlock{
+    background-color: #FFFFFF;
+    margin-top: 30rpx;
+}
+.currentMoney{
+    display: flex;
+    flex-flow: row;
+    line-height: 80rpx;
+    margin-left: 40rpx;
+    width: 710rpx;
+    height: 80rpx;
+    border-bottom:2rpx solid #D7E0E4;
+    font-size: 38rpx;
+    font-weight: body
+}
+.varietyMoney{
+    height: 280rpx;
+}
+.chioce{
+    position: absolute;
+    width: 315rpx;
+    height: 80rpx;
+    border-radius: 40rpx;
+    border: 2rpx solid #34B5E3;
+    line-height: 80rpx
+}
+.depositBtn{
+    margin-top: 200rpx;
+    width: 670rpx;
+    height: 80rpx;
+    margin-left: 40rpx;
+    background-color: #34B5E3;
+    color: #FFFFFF;
+    line-height: 80rpx;
+    border-radius: 40rpx;
+}
+.text1{
+    position: absolute;
+    display: flex;
+    flex-flow: row;
+    font-size: 30rpx; 
+    bottom: 110rpx;
+    color: #7C7D7F;
+    width: 100%;
+}
+.text2{
+    color: #7C7D7F;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 30rpx;
+    bottom: 60rpx;
+}
